@@ -1,9 +1,10 @@
 
-
 #ifndef DFS_H
 #define DFS_H
 
 #include <QMessageBox>
+#include <QStack>
+#include <QBitArray>
 #include "AbstractGraph/abstractgraph.h"
 
 void RunGrAlgoDFS(AbstractGraph *gr, const int &Stime){
@@ -45,7 +46,7 @@ void RunGrAlgoDFS(AbstractGraph *gr, const int &Stime){
 		}
 
 		if(st.empty()){
-			for(int i=1; i<sgr.count(); ++i){
+            for(int i=1; i<sgr.count(); ++i){
 				if(!vis[i]){
 					st << i; vis[i] = true;
 					AG_CHANGE_VER_PARAM((*gr), i, color, Qt::red)

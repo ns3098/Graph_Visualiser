@@ -5,7 +5,7 @@
 
 #include <QMessageBox>
 #include "GetVertex/getvertex.h"
-
+#include <QBitArray>
 #include <QQueue>
 #include "AbstractGraph/abstractgraph.h"
 
