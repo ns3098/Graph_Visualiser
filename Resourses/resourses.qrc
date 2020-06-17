@@ -1,0 +1,16 @@
+<RCC>
+    <qresource prefix="/functional">
+        <file>Add.png</file>
+        <file>Delete.png</file>
+        <file>Save.png</file>
+        <file>Open.png</file>
+        <file>Properties.png</file>
+    </qresource>
+    <qresource prefix="/icons">
+        <file>MainT.png</file>
+        <file>Main.png</file>
+    </qresource>
+    <qresource prefix="/">
+        <file>Ukrainian.qm</file>
+    </qresource>
+</RCC>
