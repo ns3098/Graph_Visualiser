@@ -44,7 +44,3 @@ Merge edit:
 
 **************
 
-## About
-*Licensed under GNU GPLv3.* See LICENSE file.
-
-Built using **Qt 5.8.0**
